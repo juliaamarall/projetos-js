@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #EEF5FF;
+}
+
+
+main{
+    background-color: #ffff;
+    width: 700px;
+    height: 530px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.089);
+   margin: 0 auto;
+   position: relative;
+   top: 10vw;
+}
+
+#bloco-left{
+    padding: 10px;
+    margin: 10px;
+   border-radius: 15px;
+    background-image: url(imgs/bg-sidebar-desktop.svg);
+    background-size: cover;
+    background-repeat: none;
+    width: 250px;
+    height: 500px;
+}
+
+.infos-left0{
+    color: white;
+    padding: 10px;
+    display: flex; 
+    gap: 1.5rem;
+}
+
+.infos-left0 span{
+    color: rgba(255, 255, 255, 0.452);
+    padding-bottom: 5px;
+}
+
+.infos-left0 p{
+    font-weight: bolder;
+}
+
+.circulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.circulo:hover{
+    background-color:#7bd6f1 ;
+    color: black;
+    cursor: pointer;
+}

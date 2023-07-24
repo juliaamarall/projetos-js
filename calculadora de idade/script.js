@@ -9,8 +9,7 @@ fm.addEventListener("submit", function(event){
     const anoAtual = dataAtual. getFullYear();
 
     var idade = (anoAtual - anoNas);
-
-
+ 
     menssagem.textContent = idade + ' Anos';
 
 });
