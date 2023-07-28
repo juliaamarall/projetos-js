@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal</title>
     <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
     <main>
         <div id="bloco-left">
             <!-- sessão one -->
-            <div class="infos-left0">
-                <div class="circulo"> 1 </div>
+            <div class="infos-left0 testando" id="caixa1">
+                <div class="circulo" id="bola0"> 1 </div>
                <div id="lateral"> 
                 <span> STEP 1</span>
                     <p> YOUR INFO</p>
                </div>
             </div>
                 <!-- sessão two -->
-            <div class="infos-left0">
+            <div class="infos-left0" id="caixa2">
                 <div class="circulo"> 2 </div>
                <div> 
                 <span> STEP 2</span>
@@ -26,7 +27,7 @@
                </div>
             </div>
                 <!-- sessão tree -->
-            <div class="infos-left0">
+            <div class="infos-left0" id="caixa3">
                 <div class="circulo"> 3 </div>
                <div> 
                 <span> STEP 3</span>
@@ -34,7 +35,7 @@
                </div>
             </div>
                 <!-- SESSÃO FOUR -->
-            <div class="infos-left0">
+            <div class="infos-left0" id="caixa4">
                 <div class="circulo"> 4 </div>
                <div> 
                 <span> STEP 4</span>
@@ -42,7 +43,43 @@
                </div>
             </div>
         </div>
+
+
+        <div id="bloco-right">
+            <div id="formulario">
+                    <div id="parteCima"> 
+                        <h1>
+                            Personal info
+                        </h1>
+
+                        <span> Plase provide your name, email address, and phone number.</span>
+                    </div>
+                        <div id="formu">
+                            <label for="nome">Name</label>
+                            <input type="text" name="nome" id="nome" placeholder="Ex: Victor Santos">
+
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email" id="email" placeholder="Ex: victorsantos@gmail.com">
+
+
+                            <label for="number">Phone Number</label>
+                            <input type="number" name="number" id="number" placeholder="Ex: (55)85 927675162">
+                        </div>
+
+                        <div id="btn">
+                            <button>Next Step</button>
+                        </div>
+                  
+
+
+            </div>
+        </div>
     </main>
+
+
+    <section class="iner">
+            <p> testando bloco</p>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>

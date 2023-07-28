@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,18 +12,21 @@ body{
 
 
 main{
+    padding: 10px;
     background-color: #ffff;
-    width: 700px;
+    width: 730px;
     height: 530px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.089);
    margin: 0 auto;
    position: relative;
    top: 10vw;
+   border-radius: 15px;
+   display: flex;
 }
 
 #bloco-left{
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
    border-radius: 15px;
     background-image: url(imgs/bg-sidebar-desktop.svg);
     background-size: cover;
@@ -30,11 +35,17 @@ main{
     height: 500px;
 }
 
+
+#bloco-left div{
+   margin-bottom: 30px;
+}
+
 .infos-left0{
     color: white;
     padding: 10px;
     display: flex; 
     gap: 1.5rem;
+    height: 30px;
 }
 
 .infos-left0 span{
@@ -45,6 +56,14 @@ main{
 .infos-left0 p{
     font-weight: bolder;
 }
+
+/* 
+.testando{
+    
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.445);
+        /* position: relative;
+    bottom: 2%; */
+
 
 .circulo{
     display: flex;
@@ -61,4 +80,75 @@ main{
     background-color:#7bd6f1 ;
     color: black;
     cursor: pointer;
+}
+
+
+#bloco-right{
+    width: 460px;
+    height: 500px;
+    margin-left: 3%;
+}
+
+
+#bloco-right #parteCima{
+    margin: 20px;
+    width: 440px;
+   
+}
+
+#parteCima h1{
+    font-family: 'REM', sans-serif;
+    margin-bottom: 2px;
+    color: #002A5A;
+}
+
+#parteCima > span{
+    color: rgb(102, 102, 102);
+}
+
+#formu{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    padding: 20px;
+}
+
+#formu input {
+   height: 30px;
+   padding: 5px;
+   border-radius: 5px;
+   border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#formu label{
+    color: #002A5A;
+    font-weight: 700;
+}
+
+#btn{
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+  
+}
+
+#btn button {
+    padding: 10px;
+    background-color: #002A5A;
+    color: #ffff;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+}
+
+
+.iner{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 0 auto;
+    position: relative;
+    bottom: 50vh;
+    display: none;
+
 }
